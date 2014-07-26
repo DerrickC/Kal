@@ -7,6 +7,7 @@
 #import "KalLogic.h"
 #import "KalDataSource.h"
 #import "KalPrivate.h"
+#import "Kal_Prefix.pch"
 
 #define PROFILER 0
 #if PROFILER

@@ -7,6 +7,7 @@
 #import "KalGridView.h"
 #import "KalLogic.h"
 #import "KalPrivate.h"
+#import "Kal_Prefix.pch"
 
 @interface KalView ()
 
@@ -95,7 +96,7 @@ static const CGFloat kMonthLabelHeight = 17.f;
     headerTitleLabel = [[UILabel alloc] initWithFrame:monthLabelFrame];
     headerTitleLabel.backgroundColor = [UIColor clearColor];
     headerTitleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:22];
-    headerTitleLabel.textAlignment = UITextAlignmentCenter;
+    headerTitleLabel.textAlignment = NSTextAlignmentCenter;
     headerTitleLabel.textColor = kDarkGrayColor;
     [self setHeaderTitleText:[logic selectedMonthNameAndYear]];
     [headerView addSubview:headerTitleLabel];
@@ -123,7 +124,7 @@ static const CGFloat kMonthLabelHeight = 17.f;
         UILabel *weekdayLabel = [[UILabel alloc] initWithFrame:weekdayFrame];
         weekdayLabel.backgroundColor = [UIColor clearColor];
         weekdayLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:10];
-        weekdayLabel.textAlignment = UITextAlignmentCenter;
+        weekdayLabel.textAlignment = NSTextAlignmentCenter;
         weekdayLabel.textColor = kGrayColor;
         weekdayLabel.text = [weekdayNames objectAtIndex:i];
         [weekdayLabel setAccessibilityLabel:[fullWeekdayNames objectAtIndex:i]];

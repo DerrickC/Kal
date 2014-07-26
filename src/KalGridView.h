@@ -32,7 +32,7 @@ typedef enum {
 }
 
 @property (nonatomic, assign) BOOL transitioning;
-@property (nonatomic, assign) KalSelectionMode selectionMode;
+@property (nonatomic, assign) KalSelectionMode *selectionMode;
 @property (nonatomic, strong) NSDate *minAvailableDate;
 @property (nonatomic, strong) NSDate *maxAVailableDate;
 @property (nonatomic, strong) NSDate *beginDate;

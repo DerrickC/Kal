@@ -33,7 +33,7 @@
 @property (nonatomic, strong) NSDate *selectedDate;
 @property (nonatomic, strong) NSDate *beginDate;
 @property (nonatomic, strong) NSDate *endDate;
-@property (nonatomic, assign) KalSelectionMode *selectionMode;
+@property (nonatomic, assign) KalSelectionMode selectionMode;
 @property (nonatomic, strong) NSDate *minAvailableDate;
 @property (nonatomic, strong) NSDate *maxAVailableDate;
 

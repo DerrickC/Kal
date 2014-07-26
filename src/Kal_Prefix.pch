@@ -2,11 +2,6 @@
 // Prefix header for all source files of the 'CocoaTouchStaticLibrary' target in the 'CocoaTouchStaticLibrary' project.
 //
 
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-    #import "NSDate+Convenience.h"
-#endif
-
 #define RGBCOLOR(R,G,B) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1]
 #define RGBACOLOR(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 

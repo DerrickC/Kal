@@ -5,6 +5,7 @@
 
 #import "KalLogic.h"
 #import "KalPrivate.h"
+#import "NSDate+Convenience.h"
 
 @interface KalLogic ()
 - (void)moveToMonthForDate:(NSDate *)date;
@@ -62,6 +63,7 @@
 
 - (NSString *)selectedMonthNameAndYear;
 {
+    NSLog(@"selectedMonthNameAndYear: %@", monthAndYearFormatter.dateFormat);
   return [monthAndYearFormatter stringFromDate:self.baseDate];
 }
 
