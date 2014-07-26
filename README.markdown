@@ -82,8 +82,6 @@ NOTE: KalViewController does not retain its datasource. You probably will want t
 Integrating Kal into Your Project
 ---------------------------------
 
-Kal is compiled as a static library, and the recommended way to add it to your project is to use Xcode's "dependent project" facilities by following these step-by-step instructions:
-
 * Just drag "Kal/src/" and drop it into your project.
 * Add "Localizable.strings" file and add 
 ```ruby
