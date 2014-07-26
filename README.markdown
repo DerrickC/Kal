@@ -85,7 +85,10 @@ Integrating Kal into Your Project
 Kal is compiled as a static library, and the recommended way to add it to your project is to use Xcode's "dependent project" facilities by following these step-by-step instructions:
 
 1. Just drag "Kal/src/" and drop it into your project.
-2. Add "Localizable.strings" file and add ""CalendarTitle"     = "LLLL yyyy";" into it.
+2. Add "Localizable.strings" file and add 
+```ruby
+"CalendarTitle"     = "LLLL yyyy";
+```
 3. #import "Kal.h"
 
 Additional Notes
